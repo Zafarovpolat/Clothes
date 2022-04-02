@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #cfecd0, #ffc5ca);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.all_container {
+    max-width: 1040px;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clothes__container {
+    display: flex;
+}
+
+.clothes__list {
+    width: 1040px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clothes__list li:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 10px 10px 10px grey;
+}
+
+.clothes__list li {
+    transition: all 0.7s;
+}
+
+.clothes__first {
+    width: 250px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    background-image: linear-gradient(purple, red);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.first__img {
+    margin-bottom: 80px;
+}
+
+.first__type {
+    margin-bottom: 40px;
+    color: rgba(128, 128, 128, 0.5);
+    letter-spacing: 3px;
+
+}
+
+.first__description {
+    margin-bottom: 30px;
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 12px;
+    letter-spacing: 3px;
+
+}
+
+.description__firstword {
+    color: black;
+}
+
+.first__descriptiontwo {
+    margin-bottom: 30px;
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.descriptiontwo__firstword {
+    color: black;
+}
+
+.first__descriptionthree {
+    margin-bottom: 60px;
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.descriptionthree__firstword {
+    color: black;
+}
+
+.first__price {
+    color: grey;
+    letter-spacing: 3px;
+    opacity: 50%;
+}
+
+.clothes__second {
+    width: 250px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    border-radius: 30px;
+    background-image: linear-gradient(green, brown);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.second__img {
+    margin-bottom: 65px;
+}
+
+.second__type {
+    color: rgb(175, 134, 30);
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.second__description {
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.second__descriptiontwo {
+    color: rgba(128, 128, 128, 0.5);
+    margin-bottom: 40px;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.second__descriptionthree {
+    color: rgba(128, 128, 128, 0.5);
+    margin-bottom: 40px;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.second__price {
+    color: rgb(175, 134, 30);
+    letter-spacing: 3px;
+}
+
+.clothes__third {
+    width: 250px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    background-image: linear-gradient(pink, yellow);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.third__img {
+    margin-bottom: 70px;
+}
+
+.third__type {
+    color: purple;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.third__description {
+    color: rgba(128, 128, 128, 0.5);
+    margin-bottom: 40px;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.third__descriptiontwo {
+    color: rgba(128, 128, 128, 0.5);
+    margin-bottom: 40px;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.third__descriptionthree {
+    color: rgba(128, 128, 128, 0.5);
+    margin-bottom: 40px;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.third__price {
+    color: purple;
+    letter-spacing: 3px;
+}
+
+.download {
+    width: 750px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playmarket {
+    transition: all 1s;
+}
+
+.playmarket:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.appstore {
+    transition: all 1s;
+}
+
+.appstore:hover {
+    transform: scale(1.05, 1.05);
+}
